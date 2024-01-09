@@ -33,7 +33,7 @@ const ForgotPassword: NextPage = () => {
             duolingo
           </Link>
           <div className="hidden items-center gap-5 md:flex">
-            <LanguageDropDown />
+            {/* <LanguageDropDown /> */}
             <button
               className="rounded-2xl border-b-4 border-blue-300 bg-white px-4 py-2 uppercase text-blue-800 transition hover:brightness-110"
               onClick={() => setLoginScreenState("LOGIN")}
@@ -41,7 +41,7 @@ const ForgotPassword: NextPage = () => {
               Login
             </button>
             <Link
-              href="/register"
+              href="/learn"
               className="rounded-2xl border-b-4 border-green-600 bg-green-500 px-4 py-2 uppercase text-white transition hover:brightness-110"
             >
               Get started

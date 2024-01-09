@@ -7,7 +7,7 @@ export const LanguageHeader = () => {
       <Link className="text-4xl" href="/">
         duolingo
       </Link>
-      <LanguageDropDown />
+      {/* <LanguageDropDown /> */}
     </header>
   );
 };
